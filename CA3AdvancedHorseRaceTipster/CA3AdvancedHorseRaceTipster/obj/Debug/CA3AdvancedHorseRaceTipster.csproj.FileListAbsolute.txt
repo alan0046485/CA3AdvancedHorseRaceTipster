@@ -1,0 +1,10 @@
+C:\Users\EU399ET\Desktop\CA3AdvancedHorseRaceTipster\CA3AdvancedHorseRaceTipster\obj\Debug\CA3AdvancedHorseRaceTipster.csprojAssemblyReference.cache
+C:\Users\EU399ET\Desktop\CA3AdvancedHorseRaceTipster\CA3AdvancedHorseRaceTipster\obj\Debug\CA3AdvancedHorseRaceTipster.Form1.resources
+C:\Users\EU399ET\Desktop\CA3AdvancedHorseRaceTipster\CA3AdvancedHorseRaceTipster\obj\Debug\CA3AdvancedHorseRaceTipster.Properties.Resources.resources
+C:\Users\EU399ET\Desktop\CA3AdvancedHorseRaceTipster\CA3AdvancedHorseRaceTipster\obj\Debug\CA3AdvancedHorseRaceTipster.csproj.GenerateResource.cache
+C:\Users\EU399ET\Desktop\CA3AdvancedHorseRaceTipster\CA3AdvancedHorseRaceTipster\obj\Debug\CA3AdvancedHorseRaceTipster.csproj.CoreCompileInputs.cache
+C:\Users\EU399ET\Desktop\CA3AdvancedHorseRaceTipster\CA3AdvancedHorseRaceTipster\bin\Debug\CA3AdvancedHorseRaceTipster.exe.config
+C:\Users\EU399ET\Desktop\CA3AdvancedHorseRaceTipster\CA3AdvancedHorseRaceTipster\bin\Debug\CA3AdvancedHorseRaceTipster.exe
+C:\Users\EU399ET\Desktop\CA3AdvancedHorseRaceTipster\CA3AdvancedHorseRaceTipster\bin\Debug\CA3AdvancedHorseRaceTipster.pdb
+C:\Users\EU399ET\Desktop\CA3AdvancedHorseRaceTipster\CA3AdvancedHorseRaceTipster\obj\Debug\CA3AdvancedHorseRaceTipster.exe
+C:\Users\EU399ET\Desktop\CA3AdvancedHorseRaceTipster\CA3AdvancedHorseRaceTipster\obj\Debug\CA3AdvancedHorseRaceTipster.pdb
