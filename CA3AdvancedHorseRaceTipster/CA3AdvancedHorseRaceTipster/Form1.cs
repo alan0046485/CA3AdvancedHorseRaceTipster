@@ -41,8 +41,7 @@ namespace CA3AdvancedHorseRaceTipster
             txtRacecourse.Visible = true;
             txtDate.Visible = true;
             txtDistance.Visible = true;
-            rblLost.Visible = true;
-            rblWon.Visible = true;
+            cmbResult.Visible = true;
             btnEnter.Visible = true;
         }
 
@@ -59,8 +58,7 @@ namespace CA3AdvancedHorseRaceTipster
             txtRacecourse.Visible = false;
             txtDate.Visible = false;
             txtDistance.Visible = false;
-            rblLost.Visible = false;
-            rblWon.Visible = false;
+            cmbResult.Visible = false;
             btnEnter.Visible = false;
         }
 
@@ -71,7 +69,12 @@ namespace CA3AdvancedHorseRaceTipster
             tip.Horse = txtHorseName.Text;
             tip.Date = txtDate.Text;
             tip.Distance = double.Parse(txtDate.Text);
-            
+            if (cmbResult = 1)
+                tip.Won = true;
+            if (cmbResult = "Lost")
+                tip.Won = false;
         }
+
+        
     }
 }

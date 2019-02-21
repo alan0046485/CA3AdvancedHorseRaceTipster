@@ -40,8 +40,7 @@
             this.txtDate = new System.Windows.Forms.TextBox();
             this.txtDistance = new System.Windows.Forms.TextBox();
             this.btnEnter = new System.Windows.Forms.Button();
-            this.rblWon = new System.Windows.Forms.RadioButton();
-            this.rblLost = new System.Windows.Forms.RadioButton();
+            this.cmbResult = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblBet
@@ -172,29 +171,20 @@
             this.btnEnter.UseVisualStyleBackColor = true;
             this.btnEnter.Click += new System.EventHandler(this.btnEnter_Click);
             // 
-            // rblWon
+            // cmbResult
             // 
-            this.rblWon.AutoSize = true;
-            this.rblWon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.rblWon.Location = new System.Drawing.Point(390, 244);
-            this.rblWon.Name = "rblWon";
-            this.rblWon.Size = new System.Drawing.Size(61, 22);
-            this.rblWon.TabIndex = 14;
-            this.rblWon.TabStop = true;
-            this.rblWon.Text = "Won";
-            this.rblWon.UseVisualStyleBackColor = true;
-            // 
-            // rblLost
-            // 
-            this.rblLost.AutoSize = true;
-            this.rblLost.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.rblLost.Location = new System.Drawing.Point(467, 244);
-            this.rblLost.Name = "rblLost";
-            this.rblLost.Size = new System.Drawing.Size(58, 22);
-            this.rblLost.TabIndex = 15;
-            this.rblLost.TabStop = true;
-            this.rblLost.Text = "Lost";
-            this.rblLost.UseVisualStyleBackColor = true;
+            this.cmbResult.AutoCompleteCustomSource.AddRange(new string[] {
+            "Won",
+            "Lost"});
+            this.cmbResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
+            this.cmbResult.FormattingEnabled = true;
+            this.cmbResult.Items.AddRange(new object[] {
+            "Won",
+            "Lost"});
+            this.cmbResult.Location = new System.Drawing.Point(390, 242);
+            this.cmbResult.Name = "cmbResult";
+            this.cmbResult.Size = new System.Drawing.Size(183, 26);
+            this.cmbResult.TabIndex = 16;
             // 
             // Form1
             // 
@@ -202,8 +192,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.rblLost);
-            this.Controls.Add(this.rblWon);
+            this.Controls.Add(this.cmbResult);
             this.Controls.Add(this.btnEnter);
             this.Controls.Add(this.txtDistance);
             this.Controls.Add(this.txtDate);
@@ -238,8 +227,7 @@
         private System.Windows.Forms.TextBox txtDate;
         private System.Windows.Forms.TextBox txtDistance;
         private System.Windows.Forms.Button btnEnter;
-        private System.Windows.Forms.RadioButton rblWon;
-        private System.Windows.Forms.RadioButton rblLost;
+        private System.Windows.Forms.ComboBox cmbResult;
     }
 }
 
